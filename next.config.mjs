@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "azim.hostlin.com",
+        pathname: "/Kiddex/assets/images/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
