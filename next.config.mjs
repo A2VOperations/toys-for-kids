@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    domains: ["azim.hostlin.com"],
+  },
 };
+
 
 export default nextConfig;
